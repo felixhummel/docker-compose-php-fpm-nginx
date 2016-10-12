@@ -10,7 +10,7 @@ nginx:
     - fpm
 
 fpm:
-  image: 'php:fpm'
+  image: 'php:5-fpm'
   volumes:
     - ./html:/var/www/html
 
